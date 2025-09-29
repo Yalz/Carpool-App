@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "carpool-app"
+version = "0.1.0"
+description = ""
+authors = ["Yalz <yalz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "2.2.3"
+gqlalchemy = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
